@@ -8,4 +8,8 @@ def convert_to_24_hour(hour, minute, period):
                 hour += 12
     else:
         return "Not a valid time format"
+        
     
+    time_24_hour = f"{hour:02d}{minute:02d}"
+    return time_24_hour
+
